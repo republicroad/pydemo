@@ -34,9 +34,9 @@ $ tree -L 2 .
 
 
 ## 练习
-> 参考后端3 中的 chinook 中的er图, 在 fastapi 中实现 employees customers 这两个表的增删改查接口.
-> 将redis的其他数据结构实现为 fastapi 的一个endpoint(接口)
+> 参考 docs/后端3.pdf 中的 chinook 中的er图, 在 fastapi 中实现 employees customers 这两个表的增删改查接口.  
+> 将redis的其他数据结构实现为 fastapi 的一个endpoint(接口)  
 
 
-运行程序:
+运行程序:  
 > uvicorn.exe redisdemo:app
